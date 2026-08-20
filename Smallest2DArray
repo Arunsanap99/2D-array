@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Smallest2DArray {
+
+    // Q4: Write a Java program to find the smallest element in a 2D array.
+
+    public static void main(String[] args) {
+
+        int matrix[][] = {
+                {1, 8, 3},
+                {4, 5, 6},
+                {7, 2, 9}
+        };
+
+        int smallest = Integer.MAX_VALUE;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+
+                if (matrix[i][j] < smallest) {
+                    smallest = matrix[i][j];
+                }
+            }
+        }
+
+        System.out.println("Smallest element = " + smallest);
+    }
+}
