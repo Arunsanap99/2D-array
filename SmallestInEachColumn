@@ -1,0 +1,27 @@
+public class SmallestInEachColumn {
+
+    // Q17: Write a Java program to find the smallest element in each column of a 2D array.
+
+    public static void main(String[] args) {
+
+        int matrix[][] = {
+                {8, 2, 5},
+                {9, 4, 1},
+                {7, 6, 3}
+        };
+
+        for (int j = 0; j < matrix[0].length; j++) {
+
+            int smallest = Integer.MAX_VALUE;
+
+            for (int i = 0; i < matrix.length; i++) {
+
+                if (matrix[i][j] < smallest) {
+                    smallest = matrix[i][j];
+                }
+            }
+
+            System.out.println("Smallest in column " + j + " = " + smallest);
+        }
+    }
+}
