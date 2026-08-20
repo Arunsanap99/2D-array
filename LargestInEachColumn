@@ -1,0 +1,27 @@
+public class LargestInEachColumn {
+
+    // Q16: Write a Java program to find the largest element in each column of a 2D array.
+
+    public static void main(String[] args) {
+
+        int matrix[][] = {
+                {1, 8, 3},
+                {9, 5, 2},
+                {4, 6, 7}
+        };
+
+        for (int j = 0; j < matrix[0].length; j++) {
+
+            int largest = Integer.MIN_VALUE;
+
+            for (int i = 0; i < matrix.length; i++) {
+
+                if (matrix[i][j] > largest) {
+                    largest = matrix[i][j];
+                }
+            }
+
+            System.out.println("Largest in column " + j + " = " + largest);
+        }
+    }
+}
