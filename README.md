@@ -1,46 +1,30 @@
-﻿# DSA-Series
-# DSA Series 🚀
+# 2D Array 🚀
 
-Welcome to **DSA Series** — a structured collection of **Data Structures and Algorithms problems solved in Java**.
+A collection of **2D Array and Matrix problems solved in Java** for DSA practice, placements, and technical interviews.
 
-This repository is created for learning, practicing, and revising DSA concepts for **coding interviews, placements, competitive programming, and technical exams**.
+## Topics Covered
 
-## 📚 Topics Covered
-
-- Arrays
-- 2D Arrays / Matrices
-- Strings
-- Sorting
-- Searching
-- Recursion
-- Linked List
-- Stack
-- Queue
-- Hashing
-- Trees
-- Graphs
-- Greedy Algorithms
-- Dynamic Programming
+- 2D Array Traversal
+- Search in 2D Array
+- Largest and Smallest Element
+- Sum of Matrix Elements
+- Row-wise Sum
+- Column-wise Sum
+- Transpose of Matrix
+- Diagonal Sum
+- Main Diagonal
+- Secondary Diagonal
+- Spiral Matrix
+- Sorted Matrix Search
+- Row and Column Operations
 - And more...
 
-## 🎯 Learning Approach
-
-Each problem focuses on:
-
-- Problem Statement
-- Logic and Approach
-- Java Implementation
-- Step-by-Step Dry Run
-- Time Complexity
-- Space Complexity
-- Important Interview Concepts
-
-## 💻 Language
+## Language
 
 - Java
 
-## 🚀 Goal
+## Goal
 
-The goal of this repository is to build strong **problem-solving and DSA fundamentals** and prepare for **placements and software engineering interviews**.
+Build strong fundamentals in **2D Arrays and Matrix problems** through simple code, logic, and practice.
 
 Happy Coding! 🚀
