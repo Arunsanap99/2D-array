@@ -1,0 +1,27 @@
+public class LargestInEachRow {
+
+    // Q14: Write a Java program to find the largest element in each row of a 2D array.
+
+    public static void main(String[] args) {
+
+        int matrix[][] = {
+                {1, 8, 3},
+                {9, 5, 2},
+                {4, 6, 7}
+        };
+
+        for (int i = 0; i < matrix.length; i++) {
+
+            int largest = Integer.MIN_VALUE;
+
+            for (int j = 0; j < matrix[0].length; j++) {
+
+                if (matrix[i][j] > largest) {
+                    largest = matrix[i][j];
+                }
+            }
+
+            System.out.println("Largest in row " + i + " = " + largest);
+        }
+    }
+}
