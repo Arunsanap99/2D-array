@@ -5,7 +5,6 @@ public class DiagonalSum {
     // Q9: Write a Java program to find the sum of both diagonals of a 2D matrix.
 
     public static void main(String[] args) {
-
         int matrix[][] = {
                 {1, 2, 3},
                 {4, 5, 6},
